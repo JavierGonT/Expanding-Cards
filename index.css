@@ -14,8 +14,7 @@ body {
 
 .boton {
     position: absolute;
-    top: 40px;
-
+    top: 20px;
 }
 
 .boton button {
@@ -74,6 +73,11 @@ body {
 @media (max-width: 480px) {
     .container {
       width: 100vw;
+    }
+
+    .boton button {
+        height: 5vh;
+        width: 30vh;
     }
   
     .panel:nth-of-type(4),
