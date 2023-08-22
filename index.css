@@ -22,7 +22,7 @@ body {
     border: none;
     border-radius: 50px;
     height: 5vh;
-    width: 20vh;
+    width: 30vh;
     font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
@@ -85,3 +85,10 @@ body {
       display: none;
     }
   }
+
+/*   @media (max-width: 2060px) {
+    .boton button {
+        height: 5vh;
+        width: 30vh;
+    }
+  } */
